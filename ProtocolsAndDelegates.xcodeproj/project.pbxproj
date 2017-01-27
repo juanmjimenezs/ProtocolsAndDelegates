@@ -7,21 +7,28 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FA43A2401E3AE38C005C0A66 /* FirstVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA43A23F1E3AE38C005C0A66 /* FirstVC.swift */; };
+		FA43A2421E3AE3A9005C0A66 /* SecondVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA43A2411E3AE3A9005C0A66 /* SecondVC.swift */; };
 		FA95F28D1E3AD5620068A645 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA95F28C1E3AD5620068A645 /* AppDelegate.swift */; };
-		FA95F28F1E3AD5620068A645 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA95F28E1E3AD5620068A645 /* ViewController.swift */; };
 		FA95F2921E3AD5620068A645 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA95F2901E3AD5620068A645 /* Main.storyboard */; };
 		FA95F2941E3AD5620068A645 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FA95F2931E3AD5620068A645 /* Assets.xcassets */; };
 		FA95F2971E3AD5620068A645 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA95F2951E3AD5620068A645 /* LaunchScreen.storyboard */; };
+		FA95F2A01E3AD7C70068A645 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA95F29F1E3AD7C70068A645 /* FirstViewController.swift */; };
+		FA95F2A21E3AD7FB0068A645 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA95F2A11E3AD7FB0068A645 /* SecondViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		FA95F2891E3AD5620068A645 /* TeoriaProtocolosDelegados.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TeoriaProtocolosDelegados.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA43A23F1E3AE38C005C0A66 /* FirstVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FirstVC.swift; sourceTree = "<group>"; };
+		FA43A2411E3AE3A9005C0A66 /* SecondVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SecondVC.swift; sourceTree = "<group>"; };
+		FA95F2891E3AD5620068A645 /* ProtocolsAndDelegates.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ProtocolsAndDelegates.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FA95F28C1E3AD5620068A645 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		FA95F28E1E3AD5620068A645 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		FA95F2911E3AD5620068A645 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		FA95F2931E3AD5620068A645 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FA95F2961E3AD5620068A645 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FA95F2981E3AD5620068A645 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FA95F29E1E3AD5D30068A645 /* MyPlayground.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = MyPlayground.playground; sourceTree = "<group>"; };
+		FA95F29F1E3AD7C70068A645 /* FirstViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = FirstViewController.swift; path = ../FirstViewController.swift; sourceTree = "<group>"; };
+		FA95F2A11E3AD7FB0068A645 /* SecondViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SecondViewController.swift; path = ../SecondViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,6 +42,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		FA43A2431E3AE3B4005C0A66 /* Example2 */ = {
+			isa = PBXGroup;
+			children = (
+				FA43A23F1E3AE38C005C0A66 /* FirstVC.swift */,
+				FA43A2411E3AE3A9005C0A66 /* SecondVC.swift */,
+			);
+			name = Example2;
+			sourceTree = "<group>";
+		};
 		FA95F2801E3AD5610068A645 = {
 			isa = PBXGroup;
 			children = (
@@ -46,7 +62,7 @@
 		FA95F28A1E3AD5620068A645 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				FA95F2891E3AD5620068A645 /* TeoriaProtocolosDelegados.app */,
+				FA95F2891E3AD5620068A645 /* ProtocolsAndDelegates.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -55,8 +71,10 @@
 			isa = PBXGroup;
 			children = (
 				FA95F28C1E3AD5620068A645 /* AppDelegate.swift */,
-				FA95F28E1E3AD5620068A645 /* ViewController.swift */,
+				FA95F2A31E3AE32D0068A645 /* Example1 */,
+				FA95F29E1E3AD5D30068A645 /* MyPlayground.playground */,
 				FA95F2901E3AD5620068A645 /* Main.storyboard */,
+				FA43A2431E3AE3B4005C0A66 /* Example2 */,
 				FA95F2931E3AD5620068A645 /* Assets.xcassets */,
 				FA95F2951E3AD5620068A645 /* LaunchScreen.storyboard */,
 				FA95F2981E3AD5620068A645 /* Info.plist */,
@@ -64,12 +82,21 @@
 			path = TeoriaProtocolosDelegados;
 			sourceTree = "<group>";
 		};
+		FA95F2A31E3AE32D0068A645 /* Example1 */ = {
+			isa = PBXGroup;
+			children = (
+				FA95F29F1E3AD7C70068A645 /* FirstViewController.swift */,
+				FA95F2A11E3AD7FB0068A645 /* SecondViewController.swift */,
+			);
+			name = Example1;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		FA95F2881E3AD5610068A645 /* TeoriaProtocolosDelegados */ = {
+		FA95F2881E3AD5610068A645 /* ProtocolsAndDelegates */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = FA95F29B1E3AD5620068A645 /* Build configuration list for PBXNativeTarget "TeoriaProtocolosDelegados" */;
+			buildConfigurationList = FA95F29B1E3AD5620068A645 /* Build configuration list for PBXNativeTarget "ProtocolsAndDelegates" */;
 			buildPhases = (
 				FA95F2851E3AD5610068A645 /* Sources */,
 				FA95F2861E3AD5610068A645 /* Frameworks */,
@@ -79,9 +106,9 @@
 			);
 			dependencies = (
 			);
-			name = TeoriaProtocolosDelegados;
+			name = ProtocolsAndDelegates;
 			productName = TeoriaProtocolosDelegados;
-			productReference = FA95F2891E3AD5620068A645 /* TeoriaProtocolosDelegados.app */;
+			productReference = FA95F2891E3AD5620068A645 /* ProtocolsAndDelegates.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -100,7 +127,7 @@
 					};
 				};
 			};
-			buildConfigurationList = FA95F2841E3AD5610068A645 /* Build configuration list for PBXProject "TeoriaProtocolosDelegados" */;
+			buildConfigurationList = FA95F2841E3AD5610068A645 /* Build configuration list for PBXProject "ProtocolsAndDelegates" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -113,7 +140,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				FA95F2881E3AD5610068A645 /* TeoriaProtocolosDelegados */,
+				FA95F2881E3AD5610068A645 /* ProtocolsAndDelegates */,
 			);
 		};
 /* End PBXProject section */
@@ -136,8 +163,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FA95F28F1E3AD5620068A645 /* ViewController.swift in Sources */,
+				FA95F2A21E3AD7FB0068A645 /* SecondViewController.swift in Sources */,
+				FA43A2421E3AE3A9005C0A66 /* SecondVC.swift in Sources */,
+				FA43A2401E3AE38C005C0A66 /* FirstVC.swift in Sources */,
 				FA95F28D1E3AD5620068A645 /* AppDelegate.swift in Sources */,
+				FA95F2A01E3AD7C70068A645 /* FirstViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -260,7 +290,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = TeoriaProtocolosDelegados/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.juanmjimenezs.TeoriaProtocolosDelegados;
+				PRODUCT_BUNDLE_IDENTIFIER = com.juanmjimenezs.ProtocolsAndDelegates;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
@@ -272,7 +302,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = TeoriaProtocolosDelegados/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.juanmjimenezs.TeoriaProtocolosDelegados;
+				PRODUCT_BUNDLE_IDENTIFIER = com.juanmjimenezs.ProtocolsAndDelegates;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
@@ -281,7 +311,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		FA95F2841E3AD5610068A645 /* Build configuration list for PBXProject "TeoriaProtocolosDelegados" */ = {
+		FA95F2841E3AD5610068A645 /* Build configuration list for PBXProject "ProtocolsAndDelegates" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				FA95F2991E3AD5620068A645 /* Debug */,
@@ -290,13 +320,14 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		FA95F29B1E3AD5620068A645 /* Build configuration list for PBXNativeTarget "TeoriaProtocolosDelegados" */ = {
+		FA95F29B1E3AD5620068A645 /* Build configuration list for PBXNativeTarget "ProtocolsAndDelegates" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				FA95F29C1E3AD5620068A645 /* Debug */,
 				FA95F29D1E3AD5620068A645 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
