@@ -53,7 +53,7 @@
 		FA95F2801E3AD5610068A645 = {
 			isa = PBXGroup;
 			children = (
-				FA95F28B1E3AD5620068A645 /* TeoriaProtocolosDelegados */,
+				FA95F28B1E3AD5620068A645 /* ProtocolsAndDelegates */,
 				FA95F28A1E3AD5620068A645 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -66,7 +66,7 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		FA95F28B1E3AD5620068A645 /* TeoriaProtocolosDelegados */ = {
+		FA95F28B1E3AD5620068A645 /* ProtocolsAndDelegates */ = {
 			isa = PBXGroup;
 			children = (
 				FA95F28C1E3AD5620068A645 /* AppDelegate.swift */,
@@ -77,6 +77,7 @@
 				FA95F2951E3AD5620068A645 /* LaunchScreen.storyboard */,
 				FA95F2981E3AD5620068A645 /* Info.plist */,
 			);
+			name = ProtocolsAndDelegates;
 			path = TeoriaProtocolosDelegados;
 			sourceTree = "<group>";
 		};
